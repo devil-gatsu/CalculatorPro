@@ -70,7 +70,7 @@ chrome.runtime.onMessage.addListener(request => {
 		id: 1,
 		priority: 1,
 		action: { type: 'modifyHeaders', requestHeaders: [{ header: 'referer', operation: 'set', value: 'https://dragonbound.net/' }] },
-		condition: { urlFilter: '*://*.dragonbound.net/*', resourceTypes: ['main_frame', 'sub_frame', 'xmlhttprequest', 'script'] }
+		condition: { urlFilter: '<all_urls>', resourceTypes: ['main_frame', 'sub_frame', 'xmlhttprequest', 'script'] }
 	  }],
 	  callback: function() {
 		if (chrome.runtime.lastError) console.error(chrome.runtime.lastError);
