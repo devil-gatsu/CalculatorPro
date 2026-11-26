@@ -1,5 +1,11 @@
 {
+  "name": "calculatorpro-dragonbound-aimbot",
+  "version": "1.0.132",
+  "description": "Dragonbound.net Aimbot - Superbot (Updated for Personal Server Testing until 2030)",
   "dependencies": {
-    "jquery": "^3.6.0"
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "web-ext": "^7.10.0"
   }
 }

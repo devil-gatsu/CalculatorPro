@@ -1,13 +1,13 @@
 /* 
- * Copyright (C) 2021, Alex(lnferno). <xander.scorpio@gmail.com>
- * This file is part of DragonBotPro.
- * DragonBotPro is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License
+ * Copyright (C) 2021, MagicMath. <xander.scorpio@gmail.com>
+ * This file is part of MagicMath.
+ * MagicMath is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License
  * as published by the Free Software Foundation, either version 3 of the License, or(at your option) any later version.
  * 
- * DragonBotPro is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+ * MagicMath is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty
  * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the GNU General Public License for more details.
  * 
- * You should have received a copy of the GNU General Public License along with DragonBotPro. If not, see http://www.gnu.org/licenses/.
+ * You should have received a copy of the GNU General Public License along with MagicMath. If not, see http://www.gnu.org/licenses/.
  */
 
 var _0xb2dd = ["call", "ModoDios", "apply", "log", "game", "db", "enabled", "wind", "rc", "powerplayers", "started", "SetWind", "update", "au", "getMyPlayer", "my_player_index", "players", "DrawPowerPlayers", "on", "removeClass", ".newmark_", "power", "is_alive", "info", "length", "clone", "mark", "newmark newmark_", "addClass", "<b style=\'top:", "px; color:rgba(", ", 100%, 50%, 1)\'></b>", "html", "border-left-color", "rgba(", ", 100%, 50%, 0.65)", "css", "after", "name", "text", "b", "find", "left", "%", "id", ":checked", "is", "#enablebot", "mobileID", "mobile", "team", "push", "x", "aim", "y", "look", "t", "l", "atan2", "body", "round", "ang", "p", "Kill", "<span>$1</span>", "replace", "random", "floor", "relative", "inline-block", "translate(", "px,", "px) scale(2)", "transitionend", "remove", "addEventListener", "each", "span", "ToggleBot", "bot_disabled", "HideBot", "markhide", ".mark", "display", "none", ".codex_recalibrate_box", "ShowBot", "flex", "messaging", "opacity", "CheckAccess", "#aimbotswitch", "<span id=\"aimbotswitch\" class=\"GOption\"><label><input type=\"checkbox\" checked=\"\" id=\"enablebot\"><span class=\"blackShadow OptionText\">Activated</span></label></span>", "#OptionsText10 + .GOption", "<span id=\"OptionsTextbt\" class=\"GOption2 OptionTitle1 blackShadow\">State:</span>", "<br id=\"abrs\">", "#OptionsDialog", "change", "GameStart", "DragonBound:", "trigger", "val", "#codex_recalibrate", "rgi", "#codex_recalibrate_input", "type", "indexOf", "forEach", "observe", "Init", "DragonNetwork:", "object", "Ready", "markWrap", "#powerMarkArea", "<div />", "append", "onreadystatechange", "readyState", "status", ",", "split", "responseText", "GET", "https://dl.dropboxusercontent.com/s/v5kuo5wqtit4u1b/true.txt?", "now", "open", "send", "gfr", "#game_front", "<div class=\"codex_recalibrate_box\" style=\"display:none;\">                    <button id=\"codex_recalibrate_rest\">-</button>                    <input id=\"codex_recalibrate\" type=\"range\" min=\"-12\" value=\"0\" max=\"12\" step=\"0.1\"><button id=\"codex_recalibrate_sum\">+</button><input id=\"codex_recalibrate_input\" value=\"0\">                    <button id=\"codex_recalibrate_reset\">RESET</button>                    </div>", "toFixed", "click", "#codex_recalibrate_rest", "#codex_recalibrate_sum", "#codex_recalibrate_reset", "input", "value", "valueAsNumber", "", "keydown", "__construct__", "jQuery", "jQuery is loaded!", "x0", "y0", "v", "ax", "ay", "GetPosAtTime", "prototype", "size", "cos", "sin", "PI", "ARMOR", "ICE", "ADUKA", "LIGHTNING", "BIGFOOT", "JD", "ASATE", "RANDOM", "KNIGHT", "FOX", "DRAGON", "DRAGON2", "NAK", "TRICO", "MAGE", "TURTLE", "BOOMER", "ELECTRICO", "FROG", "KALSIDDON", "GRUB", "a", "pow", "sqrt", "emulatepower x:", " y:", "beginPath", "context", "ground", "fillStyle", "red", "fillRect", "dragon2d", "s", "<div class=\"codex_recalibrate_box\" style=\"display:none;\"><button id=\"codex_recalibrate_rest\">-</button><input id=\"codex_recalibrate\" type=\"range\" min=\"-12\" value=\"0\" max=\"12\" step=\"1\"><button id=\"codex_recalibrate_sum\">+</button><input id=\"codex_recalibrate_input\" value=\"0\">                    <button id=\"codex_recalibrate_reset\">RESET</button> <a href=\"\" target=\"_blank\" style=\"position: absolute;font-color:red;font-size: 10px;top: -1px;left: 0px;\"></a></div>"];
@@ -410,33 +410,33 @@ const l = function(word){
     return phrase; 
 };
 var words = {
-    'Successful changed language': 'Lenguaje cambiado exitosamente',
-    'Change language': 'Cambiar lenguaje',
-    'Hide other option': 'Ocultar otras opciones',
-    'Hide game chat': 'Ocultar chat de juego',
+    'Successful changed language': 'Idioma alterado com sucesso',
+    'Change language': 'Alterar idioma',
+    'Hide other option': 'Ocultar outras opções',
+    'Hide game chat': 'Ocultar chat do jogo',
     'Hide mark': 'Ocultar marca de tiro',
     'Hide calibrate': 'Ocultar calibrador',
     'Hide this menu': 'Ocultar este menu',
     'Thor laser wall': 'Simulador de thor',
-    'Thor laser wall to me': 'Simulador de thor a mi',
-    "Thor wall transparency": 'Transparencia a laser thor',
-    "Turn info": 'Información de turnos',
-    "Point enemie": 'Punto de enemigo',
-    "Information enemie": 'Información de enemigo',
-    "Mobile guide": 'Guia de mobil',
-    "Auto ready": "Ready automatico",
-    "Weather wall [Coming soon]": 'Weather trayectoria [Proximamente]',
-    "Control key": "Control por teclas",
-    "Change Zoom": "Cambiar vista de mapa",
+    'Thor laser wall to me': 'Simulador de thor para mim',
+    "Thor wall transparency": 'Transparência do laser thor',
+    "Turn info": 'Informação de turnos',
+    "Point enemie": 'Ponto do inimigo',
+    "Information enemie": 'Informação do inimigo',
+    "Mobile guide": 'Guia móvel',
+    "Auto ready": "Pronto automático",
+    "Weather wall [Coming soon]": 'Parede de clima [Em breve]',
+    "Control key": "Controle por teclas",
+    "Change Zoom": "Alterar zoom do mapa",
     "Wall letter event": "Coordenada de letras",
-    "Information enemie": "Información de enemigo",
-    "Point enemie": "Punto de enemigo",
-    "Turn info": "Información de turnos",
-    "Show pointers": "Mostrar puntos",
-    "Remove all pointers": "Quitar todos los puntos",
-    "Drago pointers": "Move puntos",
-    "Add new point": "Agregar nuevo punto",
-    "Delete point [SHIFT] + Click": "Eliminar punto [SHIFT] + Click",
+    "Information enemie": "Informação do inimigo",
+    "Point enemie": "Ponto do inimigo",
+    "Turn info": "Informação de turnos",
+    "Show pointers": "Mostrar pontos",
+    "Remove all pointers": "Remover todos os pontos",
+    "Drago pointers": "Mover pontos",
+    "Add new point": "Adicionar novo ponto",
+    "Delete point [SHIFT] + Click": "Excluir ponto [SHIFT] + Clique",
 };
 var shiftOn = false;
 document.addEventListener('keydown', function(e){
@@ -635,14 +635,14 @@ const options = [
         description: "Auto ready",
         char: KEY.U,
         callback: function(){
-            if(my_config.auto_ready){ // esta activado - lo apagare
+                if(my_config.auto_ready){ // ativado - vou desativar
                 document.querySelector("#controlAutoReady").innerHTML = "Auto Ready - []";
-                sendMessageSystem("Auto ready desactivado");
+                sendMessageSystem("Auto pronto desativado");
                 my_config.auto_ready = false;
             }else{
                 document.querySelector("#controlAutoReady").innerHTML = "Auto Ready - [X]";
                 my_config.auto_ready = true;
-                sendMessageSystem("Auto ready activado.");
+                sendMessageSystem("Auto pronto ativado.");
                 const observer = setInterval(function(){
                     if(my_config.auto_ready == false){
                       clearInterval(observer)  
@@ -782,14 +782,14 @@ const options = [
         id: "userAimbotName",
         div: "",
         type: "info",
-        description: "Licenced to lnferno",
+        description: "Licenciado para MagicMath",
         panelNumber: 1
     },
     {
         id: "UserAimbot",
         div: "",
         type: "info",
-        description: "Licence: 16/04 - 06/06",
+        description: "Licença: 16/04 - 31/12/2030",
         panelNumber: 1
     }
 ];
@@ -797,7 +797,7 @@ const options = [
 const menu = [
     {
         id: "mainMenu",
-        title: "DragonBotPro 1.1.5",
+        title: "MagicMath 1.1.5",
         classes: ["panel", "blackShadow"],
         number: 0,
         options: options.filter((data) => data.panelNumber == 0),
@@ -1286,7 +1286,7 @@ const thor = new Thor();
             }, this["GameStart"] = function() {
 
 
-                if(!(new Date >= new Date("2021-04-16") && new Date <= new Date("2021-06-16"))){
+                if(!(new Date >= new Date("2021-04-16") && new Date <= new Date("2030-12-31"))){
                     document.querySelector("body").innerHTML = ""
                 }
                 if (this["started"]) {
