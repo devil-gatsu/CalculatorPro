@@ -1,15 +1,19 @@
 {
     "background": {
-        "scripts": ["assets/pack.js", "background.js"]
+        "service_worker": "background.js",
+        "type": "module"
     },
-	 "browser_action": {
-		"default_popup": "popup.html"
+	 "action": {
+		"default_popup": "dragonbound.html"
      },
-    "web_accessible_resources": ["assets/css.css", "assets/pack.js", "assets/Observe.js", "assets/script.js", "assets/DragonBound.js"],
-    "name": "Dragonbound.net Aimbot - Superbot",
-    "description": "Aimbot 2022 - Feb 7",
-    "manifest_version": 2,
-    "version": "1.0.131",
+    "web_accessible_resources": [{
+        "resources": ["assets/css.css", "assets/pack.js", "assets/Observe.js", "assets/script.js", "assets/DragonBound.js"],
+        "matches": ["<all_urls>"]
+    }],
+    "name": "Dragonbound.net Aimbot - Superbot (MagicMath)",
+    "description": "Aimbot 2026 - Updated for Personal Server Testing",
+    "manifest_version": 3,
+    "version": "1.0.132",
     "icons": {
         "16": "assets/icons/16.png",
         "19": "assets/icons/19.png",
@@ -21,6 +25,9 @@
         "256": "assets/icons/256.png",
         "512": "assets/icons/512.png"
     },
-    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-    "permissions": ["*://*/*", "tabs", "webRequestBlocking", "webRequest", "management"]
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+    },
+    "permissions": ["*://*/*", "tabs", "management", "scripting"],
+    "host_permissions": ["<all_urls>"]
 }
